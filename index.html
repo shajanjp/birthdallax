@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="Shajan">
+    <title>Birthdallax</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Javascript files -->
+    <script src="js/skrollr.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+</head>
+<div id="info">0</div>
+<section id="slide-1">
+	<div class="bcg"></div>
+	<div id="scrollBaby"
+	data-top="transform:translateY(0px)"
+	data--875-top="transform:translateY(300px)"
+	data-anchor-target="#slide-1"
+	></div>
+
+<div id="cake" 
+	data-top="opacity:1;"
+	data--2000-top="opacity:1;"
+	data--5000-top="opacity:1; left:50%;"
+	data--5500-top="left:15%;"
+	data-anchor-target="#slide-1">
+
+<!-- 		<div class="item cream1" data-top="opacity: 0;" 
+	    data--1000-top="opacity: 0; transform: scale(0.5); bottom: 0px;" 
+	    data--2000-top="opacity: 0.5; transform: scale(0.5); bottom: 100px;" 
+	    data--3000-top="opacity: 1; transform: scale(1); bottom: 172px;" 
+	    data-anchor-target="#slide-1"     
+    ><img src="img/cream4.png"></div>
+  -->
+
+   <div class="item cream4"
+    	data-top="opacity: 0;"
+	    data--4000-top="opacity: 0; transform: scale(0.5); bottom: 300px;" 
+	    data--4500-top="opacity: 1; transform: scale(1); bottom: 176px;" 
+	    data-anchor-target="#slide-1"     
+    ><img src="img/cream4.png"></div>
+
+    <div class="item cream3"
+    	data-top="opacity: 0;"
+	    data--3500-top="opacity: 0; transform: scale(0.5); bottom: 134px;" 
+	    data--4000-top="opacity: 1; transform: scale(1); bottom: 134px;" 
+	    data-anchor-target="#slide-1"     
+    ><img src="img/cream3.png"></div>
+
+    <div class="item cream2"
+    	data-top="opacity: 0;"
+	    data--3000-top="opacity: 0; transform: scale(0.5); bottom: 93px;" 
+	    data--3500-top="opacity: 1; transform: scale(1); bottom: 93px;" 
+	    data-anchor-target="#slide-1"     
+    ><img src="img/cream2.png"></div>
+
+    <div class="item cream1"
+    	data-top="opacity: 0;"
+	    data--2500-top="opacity: 0; transform: scale(0.5); bottom: 94px;" 
+	    data--3000-top="opacity: 1; transform: scale(1); bottom: 94px;" 
+	    data-anchor-target="#slide-1"     
+    ><img src="img/cream1.png"></div>  
+
+    <div class="item cpaper" 
+      data-top="opacity: 0; transform:translateY(-0px)" 
+      data--2000-top="opacity: 0; transform[bounce]:translateY(-300px)" 
+      data--2500-top="opacity: 1; transform[bounce]:translateY(0)" 
+      data-anchor-target="#slide-1"
+    ><img src="img/cpaper.png"></div>
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<script>
+	var s = skrollr.init({
+	render: function(data) {
+	  //Log the current scroll position.
+	  $('#info').text(data.curTop);
+	}
+});
+</script>
+
+</body>
+</html>

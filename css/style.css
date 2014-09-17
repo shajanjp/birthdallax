@@ -1,0 +1,74 @@
+body,html{
+	margin: 0px;
+	background-color: #efe5d2;
+}
+
+section{
+	height: 10000px;
+}
+
+#slide-1 .bcg{
+	height: 100%;
+	width: 100%;
+	background-color: #efe5d2;
+}
+
+#scrollBaby {
+	width: 184px;
+	height: 286px;
+	background: url('../img/img_get-scrolling.png') no-repeat top left;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	margin-left: -92px;
+}
+
+#slide-1 #cake{
+	position: fixed;
+	width: 250px; 
+	height: 300px;
+	bottom:10%;
+	left: 50%;
+	margin: -150px 0 0 -125px;
+	/*border: 1px solid red;*/
+	/*background-image: url('../img/BdayCake.jpg');*/
+}
+
+#slide-1 .item {
+	position: absolute; 
+}
+
+#slide-1 .cpaper{
+	left:23px;
+	bottom:0px;
+	top: auto;
+}
+
+#slide-1 .cream4{
+	bottom:176px;
+	left: 30px;
+}
+
+#slide-1 .cream3{
+	bottom:134px;
+	left: 6px;
+}
+
+#slide-1 .cream2{
+	bottom:93px;
+	left: 8px;
+}
+
+#slide-1 .cream1{
+	bottom:94px;
+	left: 112px;
+}
+
+#info{
+position: fixed;
+top: 20px;
+left: 20px;
+padding: 20px;
+background-color: rgba(0,0,0,.5);
+z-index: 2;
+}
